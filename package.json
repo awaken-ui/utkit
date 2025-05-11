@@ -1,0 +1,42 @@
+{
+  "name": "utkit",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
+  },
+  "keywords": [
+    "typescript",
+    "utilities",
+    "toolkit",
+    "classNames",
+    "variants",
+    "class merge",
+    "deep access",
+    "object utilities",
+    "functional",
+    "helper",
+    "modular",
+    "tree-shakable",
+    "frontend",
+    "ts-utils"
+  ],
+  "author": "Awaken UI",
+  "license": "MIT",
+  "description": "A lightweight utility toolkit essential for clean, reusable, and scalable TypeScript development.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awaken-ui/utkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/awaken-ui/utkit.git/issues"
+  },
+  "homepage": "https://github.com/awaken-ui/utkit.git",
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  }
+}

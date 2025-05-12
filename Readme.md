@@ -119,7 +119,7 @@ const resolverClass = combineApplicableClasses ({
 const classes = resolverClass({
     variant: {
         primary: "prim-1" 
-    }
+    },
     size: 'md',
     block: true,
 });
